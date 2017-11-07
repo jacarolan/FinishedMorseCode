@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.params=
+comment0.target=void\ start()
+comment1.params=letter\ code
+comment1.target=void\ addSymbol(char,\ java.lang.String)
+comment1.text=\r\n\ Inserts\ a\ letter\ and\ its\ Morse\ code\ string\ into\ the\ encoding\ map\r\n\ and\ calls\ treeInsert\ to\ insert\ them\ into\ the\ decoding\ tree.\r\n
+comment2.params=letter\ code
+comment2.target=void\ treeInsert(char,\ java.lang.String)
+comment2.text=\r\n\ Inserts\ a\ letter\ and\ its\ Morse\ code\ string\ into\ the\r\n\ decoding\ tree.\ \ Each\ dot-dash\ string\ corresponds\ to\ a\ path\r\n\ in\ the\ tree\ from\ the\ root\ to\ a\ node\:\ at\ a\ "dot"\ go\ left,\ at\ a\ "dash"\ go\r\n\ right.\ \ The\ node\ at\ the\ end\ of\ the\ path\ holds\ the\ symbol\r\n\ for\ that\ code\ string.\r\n
+comment3.params=text
+comment3.target=java.lang.String\ encode(java.lang.String)
+comment3.text=\r\n\ Converts\ text\ into\ a\ Morse\ code\ message.\ \ Adds\ a\ space\ after\ a\ dot-dash\r\n\ sequence\ for\ each\ letter.\ \ Other\ spaces\ in\ the\ text\ are\ transferred\ directly\r\n\ into\ the\ encoded\ message.\r\n\ Returns\ the\ encoded\ message.\r\n
+comment4.params=morse
+comment4.target=java.lang.String\ decode(java.lang.String)
+comment4.text=\r\n\ Converts\ a\ Morse\ code\ message\ into\ a\ text\ string.\ \ Assumes\ that\ dot-dash\r\n\ sequences\ for\ each\ letter\ are\ separated\ by\ one\ space.\ \ Additional\ spaces\ are\r\n\ transferred\ directly\ into\ text.\r\n\ Returns\ the\ plain\ text\ message.\r\n
+numComments=5

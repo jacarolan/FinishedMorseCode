@@ -102,7 +102,7 @@ public class MorseCode
     public static String encode(String text)
     {
         StringBuffer morse = new StringBuffer(400);
-        Scanner in = new Scanner(text);
+        Scanner in = new Scanner(text.toUpperCase());
         in.useDelimiter(" ");
         while(in.hasNext()) {
             String n = in.next();
